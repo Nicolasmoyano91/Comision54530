@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 .navbar{
     font-weight: 1000;
     font-size:x-large;
@@ -18,43 +25,17 @@ height: auto;
     background-color: rgba(127, 255, 212, 0.74);
 }  
 
-.localestext:hover{
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.747);
-    font-size: xx-large;
-} 
-
 .navbar li a{
     text-align:justify;
     text-decoration: none;
     color: black;
 } 
 
-.PRODUCTOS{
-    text-align: center;
-}  
-
-.PRODUCTOS:hover{
-    text-decoration: underline;
-}  
-
-.nosotros:hover{
-    text-decoration: underline;
-    font-size: xxx-large;
-}
-
 navbar{
     letter-spacing: 2px;
     font-size:larger;
     text-indent: 120px;
     font-size:x-large;
-}
-
-.nosotros{
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    font-size: xx-large;
 }
 
 .mainnos{
@@ -69,11 +50,6 @@ navbar{
     padding-left: 60px;
     padding-right: 60px;
     font-size: xx-large;
-}
-
-
-.localestext{
-    text-align: center;
 }
 
 .mainlocal{
@@ -119,19 +95,15 @@ navbar{
     gap: 20px;
 }
 
-.NCTEXT{
-    text-align: center;
-    line-height: 80px;
-}
-
-.NCTEXT:hover{
-text-decoration: underline;
-font-size: xxx-large;
-}
-
 .footer1{
-text-align: left;
+text-align: center;
 background-color:  rgba(47, 79, 79, 0.301);
+}
+
+.footer2{
+    margin-top: 90px;
+    text-align: center;
+    color: rgba(47, 79, 79, 0.301);
 }
 
 .container-fluid{
@@ -149,7 +121,7 @@ line-height: 30px;}}
 
 @media only screen and (min-width: 701px) and (max-width: 1000px) 
 {.mainnos { font-size: medium;
-    padding-top: 0%;
+padding-top: 0%;
 letter-spacing: 0px;
 font-weight: 500;
 text-align:justify;
@@ -168,22 +140,34 @@ line-height: 50px;}}
     font-weight: 900;
 }}
 
-@media only screen and (min-width: 200px) and (max-width:800px) 
+@media only screen and (min-width: 200px) and (max-width:767px) 
 {.textolocal {
     position: absolute;
-    top: 480px;
-    left: 160px;
+    top: 325px;
+    left: 80px;
     word-spacing: 10px;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size:xx-small;
     font-weight: 900;
 }}
 
-@media only screen and (min-width: 800px) and (max-width:1000px) 
+@media only screen and (min-width: 768px) and (max-width:1000px) 
 {.textolocal {
     position: absolute;
-    top: 530px;
+    top: 490px;
+    left: 180px;
+    word-spacing: 10px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 900;
+}}
+
+@media only screen and (min-width: 1001px) and (max-width:1024px) 
+{.textolocal {
+    position: absolute;
+    top: 600px;
     left: 180px;
     word-spacing: 10px;
     color: black;
@@ -195,5 +179,26 @@ line-height: 50px;}}
 
 @media only screen and (min-width: 200px) and (max-width:800px) 
 {.local {
-    position: absolute;
+    position:relative;
+}}
+
+@media only screen and (min-width: 300px) and (max-width:767px) 
+{ .navbar {
+    text-align: center;
+    font-size: larger;
+    display: grid;
+}}
+
+@media only screen and (min-width: 768px) and (max-width:900px) 
+{ .navbar {
+    text-align:center;
+    font-size:medium;
+    left: 0px;
+}}
+
+@media only screen and (min-width: 901px) and (max-width:1024px) 
+{ .navbar {
+    text-align:center;
+    font-size:medium;
+    left: 20px;
 }}
