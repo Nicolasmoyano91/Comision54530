@@ -1,0 +1,13 @@
+.mainnos{
+    line-height: 60px;
+    letter-spacing: 8px;
+    word-spacing: 18px;
+    display: flex;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-principal;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: xx-large;
+}

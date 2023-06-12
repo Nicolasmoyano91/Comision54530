@@ -1,0 +1,11 @@
+
+@mixin flex ($overflow,$margin,$direction,$wrap,$content,$gap) 
+{
+    display: flex;
+    overflow: $overflow;
+    margin: $margin;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $content;
+    gap: $gap;
+}

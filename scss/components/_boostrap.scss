@@ -1,0 +1,9 @@
+.container{
+@include flex(auto,60px,row,wrap,space-between,20px);
+}
+
+.contenedorNC{
+@include flex(auto,80px,row,wrap,space-between,20px);
+}
+
+

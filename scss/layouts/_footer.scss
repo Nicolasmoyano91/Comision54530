@@ -1,0 +1,9 @@
+.footer1{
+    text-align: center;
+    background-color: $color-secundario;
+    }
+
+.footer2{
+    @extend .footer1;
+    margin-top: 90px;
+}
